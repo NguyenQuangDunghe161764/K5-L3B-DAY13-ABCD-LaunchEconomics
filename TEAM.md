@@ -13,7 +13,7 @@
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyen Quang Dung | 2A202604031 | dunghamhaha@gmail.com | NguyenQuangDunghe161764 | Người viết code |
 |   2 | Nguyễn Văn Lên | 2A202604007 | nguyenvanlen24122004@gmail.com | len2412 | Người gắn nhãn 1 |
-|   3 |        |      |       |        |         |
+|   3 | Đặng Nguyễn Nhật Minh | 2A202604118 | 26ai.minhdnn@vinuni.edu.vn | MN-HD | Người kiểm số |
 |   4 |        |      |       |        |         |
 
 Bốn vai của lab:
