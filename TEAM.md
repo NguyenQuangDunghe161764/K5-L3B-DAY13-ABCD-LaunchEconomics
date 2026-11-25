@@ -64,3 +64,19 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Bằng chứng
 
 -
+
+## DangNguyenNhatMinh-2A202604118
+
+### Phần việc phụ trách
+
+- Người kiểm số cho nhiệm vụ A và B.
+
+### Đóng góp cụ thể
+
+- Chạy ba phép thử A1 và đối chiếu các kết quả 1,20 · 1,25 · 1,25.
+- Kiểm tra độc lập chi phí gọi tool từ CSV: 5.600 lượt × 15 đ/lượt = 84.000 đ, khớp với kết quả của `lab13.py`.
+- Điền bảng chi phí A1–A4 và phân tích độ nhạy B1–B4 từ kết quả chạy của nhóm.
+
+### Bằng chứng
+
+- `report/team/bang_chi_phi.md`, commit `042f972`.
