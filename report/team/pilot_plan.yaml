@@ -74,7 +74,7 @@ pilot:
       TRONG 2 tuần liên tiếp THÌ PM dừng thu mẫu chính, thu hẹp về noi_dia và giới hạn 2 lần chạy
       KHÔNG THÌ giữ phạm vi hiện tại và chờ rà soát trước khi tăng bước.
     - >-
-      NẾU tỷ lệ yêu cầu có gợi ý nhưng nhân viên bỏ qua vượt 40%
+      NẾU tỷ lệ yêu cầu có quyết định cuối là sửa hoặc bỏ trong số các yêu cầu đã xem lại vượt 40%
       TRONG 1 tuần THÌ Trưởng nhóm CSKH giữ nguyên mức rollout, phỏng vấn 5 nhân viên trong 3 ngày
       KHÔNG THÌ chỉ chuyển bước sau khi các điều kiện còn lại đã đạt.
   interim_looks: >-
