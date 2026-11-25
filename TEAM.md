@@ -2,10 +2,12 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A hoặc L3B
+- Tên nhóm: ABCD
+- Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-ABCD-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- URL repo: [K5-L3B-DAY13-ABCD-LaunchEconomics](https://github.com/NguyenQuangDunghe161764/K5-L3B-DAY13-ABCD-LaunchEconomics)
+- Nhánh nộp: `main`
+- Commit chốt: cập nhật khi nhóm chốt bản nộp.
 
 ## Thành viên
 
@@ -13,8 +15,8 @@
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyen Quang Dung | 2A202604031 | dunghamhaha@gmail.com | NguyenQuangDunghe161764 | Người viết code |
 |   2 | Nguyễn Văn Lên | 2A202604007 | nguyenvanlen24122004@gmail.com | len2412 | Người gắn nhãn 1 |
-|   3 |        |      |       |        |         |
-|   4 |        |      |       |        |         |
+|   3 | Đặng Nguyễn Nhật Minh | 2A202604118 | 26ai.minhdnn@vinuni.edu.vn | Chờ xác nhận | Người kiểm số |
+|   4 | Triệu Tuấn Minh | 2A202604123 | trieutuanminh004@gmail.com | ttm4623 | Người gắn nhãn 2, kiêm giữ hồ sơ |
 
 Bốn vai của lab:
 
@@ -27,15 +29,10 @@ Bốn vai của lab:
 
 ## Cá nhân
 
-Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
-
-```text
-report/team/MSSV_HoTen.md
-```
-
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Sao chép mục dưới đây cho từng thành viên.
+- [Nguyen Quang Dung](report/team/2A202604031_NguyenQuangDung.md)
+- [Nguyễn Văn Lên](report/team/2A202604007_NguyenVanLen.md)
+- [Đặng Nguyễn Nhật Minh](report/team/2A202604118_DangNguyenNhatMinh.md)
+- [Triệu Tuấn Minh](report/team/2A202604123_TrieuTuanMinh.md)
 
 ## Nguyen Quang Dung — 2A202604031
 
@@ -46,10 +43,11 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Đóng góp cụ thể
 
 - Triển khai mô hình chi phí, bảng độ nhạy và phép tính cỡ mẫu pilot với sự hỗ trợ của Codex.
+- Hoàn thiện kế hoạch pilot và tính tỷ lệ mở lại theo phạm vi ở CP4. Tổng hợp đặc tả chỉ số và báo cáo nhóm ở CP5.
 
 ### Bằng chứng
 
-- Commit `823fafb`. `python lab13.py` chạy hết và cả ba phép thử A1 đều đạt.
+- Commit `823fafb` cho code phân tích, `6dbcd65` cho CP4 và `2c3495d` cho CP5. `python lab13.py` chạy hết và cả ba phép thử A1 đều đạt.
 
 ## Nguyễn Văn Lên — 2A202604007
 
@@ -66,7 +64,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - `report/team/bang_loi.md` (bộ nhãn người 1, kết quả đồng thuận và bảng khắc phục).
 
-## DangNguyenNhatMinh-2A202604118
+## Đặng Nguyễn Nhật Minh — 2A202604118
 
 ### Phần việc phụ trách
 
@@ -81,3 +79,19 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Bằng chứng
 
 - `report/team/bang_chi_phi.md`, commit `042f972`.
+
+## Triệu Tuấn Minh — 2A202604123
+
+### Phần việc phụ trách
+
+- Người gắn nhãn 2 ở CP3, kiêm giữ hồ sơ launch từ CP1 đến CP5.
+
+### Đóng góp cụ thể
+
+- Gắn nhãn độc lập 20 ca lỗi. Khi đối chiếu với người gắn nhãn 1, hai bộ nhãn trùng 20/20 ca. Tham gia hoàn thiện bảng khắc phục cho năm loại lỗi.
+- Tổng hợp bằng chứng và cập nhật hồ sơ launch về cỡ mẫu, rollout, luật dừng, chỉ số và các điều kiện trước pilot.
+
+### Bằng chứng
+
+- [Bảng lỗi CP3](report/team/bang_loi.md) · [Hồ sơ launch v0](report/team/ho_so_launch_v0.md) · [Báo cáo cá nhân](report/team/2A202604123_TrieuTuanMinh.md)
+- Commit `7fd4ab5` và `7b9577d` cho CP4, `4a834cd` cho CP5.
