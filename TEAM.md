@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
+|   1 | Nguyen Quang Dung | 2A202604031 | dunghamhaha@gmail.com | NguyenQuangDunghe161764 | Người viết code |
 |   2 |        |      |       |        |         |
 |   3 |        |      |       |        |         |
 |   4 |        |      |       |        |         |
@@ -36,6 +36,20 @@ report/team/MSSV_HoTen.md
 Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 Sao chép mục dưới đây cho từng thành viên.
+
+## Nguyen Quang Dung — 2A202604031
+
+### Phần việc phụ trách
+
+- Người viết code cho nhiệm vụ A, B và D1 trong `src/lab13.py`.
+
+### Đóng góp cụ thể
+
+- Triển khai mô hình chi phí, bảng độ nhạy và phép tính cỡ mẫu pilot với sự hỗ trợ của Codex.
+
+### Bằng chứng
+
+- Commit `823fafb`. `python lab13.py` chạy hết và cả ba phép thử A1 đều đạt.
 
 ## HoVaTen-MSSV
 
