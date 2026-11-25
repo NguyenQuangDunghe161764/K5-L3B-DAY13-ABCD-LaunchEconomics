@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyen Quang Dung | 2A202604031 | dunghamhaha@gmail.com | NguyenQuangDunghe161764 | Người viết code |
-|   2 |        |      |       |        |         |
+|   2 | Nguyễn Văn Lên | 2A202604007 | nguyenvanlen24122004@gmail.com | len2412 | Người gắn nhãn 1 |
 |   3 |        |      |       |        |         |
 |   4 |        |      |       |        |         |
 
@@ -51,19 +51,20 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - Commit `823fafb`. `python lab13.py` chạy hết và cả ba phép thử A1 đều đạt.
 
-## HoVaTen-MSSV
+## Nguyễn Văn Lên — 2A202604007
 
 ### Phần việc phụ trách
 
--
+- Được phân công người gắn nhãn 1 cho nhiệm vụ C: đọc đề, theo dõi điều kiện hoàn thành và tham gia phân loại 20 ca lỗi.
 
 ### Đóng góp cụ thể
 
--
+- Ghi bộ nhãn người 1 và kết quả so sánh được báo cáo là 20/20 ca trùng trong `report/team/bang_loi.md`.
+- Các nhãn ban đầu và đề xuất khắc phục đã được soạn với hỗ trợ định nghĩa và giải thích của Copilot
 
 ### Bằng chứng
 
--
+- `report/team/bang_loi.md` (bộ nhãn người 1, kết quả đồng thuận và bảng khắc phục).
 
 ## DangNguyenNhatMinh-2A202604118
 
