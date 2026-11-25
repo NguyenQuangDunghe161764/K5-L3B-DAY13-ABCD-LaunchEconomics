@@ -183,7 +183,7 @@ def co_mau(p1, p2, alpha=0.05, power=0.8):
     return math.ceil(((z_alpha * sai_so_gop + z_power * sai_so_rieng) / (p2 - p1)) ** 2)
 
 
-def in_co_mau():
+def in_co_mau(reqs, pilot):
     icc, nhan_vien, depot, m = 0.02, 20, 6, 75
     n_5 = co_mau(0.70, 0.75)
     n_6 = co_mau(0.70, 0.76)
@@ -197,8 +197,15 @@ def in_co_mau():
           f"{n_cum:,} yêu cầu, {math.ceil(n_cum / m)} người/nhóm")
     print(f"c. {nhan_vien} nhân viên/nhóm: cận trên {nhan_vien / icc:,.0f} yêu cầu hiệu dụng")
     print(f"d. {depot} depot/nhóm: cận trên {depot / icc:,.0f} yêu cầu hiệu dụng")
+    n_thuc_te = nhan_vien * m_toi_thieu
+    de_6 = 1 + (m_toi_thieu - 1) * icc
     print(f"e. +6 điểm: {n_6} yêu cầu hiệu dụng/nhóm, cần ít nhất {m_toi_thieu} yêu cầu/người "
-          f"(DE={1 + (m_toi_thieu - 1) * icc:.2f})")
+          f"(DE={de_6:.2f}, {n_thuc_te:,} yêu cầu/nhóm, hiệu dụng {n_thuc_te / de_6:.2f})")
+
+    print("\nD3 · Mở lại trong 7 ngày [simulated]")
+    for ten, tap_yeu_cau in (("Toàn bộ", reqs), ("noi_dia + hang_nang", pilot)):
+        so_mo_lai = sum(int(yc["mo_lai_trong_7_ngay"]) for yc in tap_yeu_cau)
+        print(f"{ten}: {so_mo_lai}/{len(tap_yeu_cau)} = {so_mo_lai / len(tap_yeu_cau):.2%}")
 
 
 if __name__ == "__main__":
@@ -211,4 +218,4 @@ if __name__ == "__main__":
     pilot = [yc for yc in reqs if yc["loai"] in PHAM_VI_PILOT]
     in_chi_phi(runs, reqs, goc, pilot)
     in_do_nhay(runs, reqs, goc, pilot)
-    in_co_mau()
+    in_co_mau(reqs, pilot)
