@@ -31,4 +31,4 @@ Tôi dùng ChatGPT để được hướng dẫn chạy bài, giải thích ba p
 
 Qua A2, tôi hiểu vì sao phải tính chi phí của cả lượt chạy thất bại: các lượt này vẫn tiêu tốn tài nguyên, trong khi mẫu số của chi phí mỗi việc thành công chỉ gồm 978 yêu cầu đã xử lý thành công.
 
-Qua B3, tôi thấy lựa chọn số lần chạy phụ thuộc vào mục tiêu. Giới hạn 2 lần cho tổng chi phí hệ thống thấp nhất, 6.901.220 đ, còn giới hạn 1 lần cho chi phí trợ lý mỗi việc thành công thấp nhất, 4.111 đ (`simulated`). Phép đối chiếu độc lập của tôi tập trung vào chi phí gọi tool ở A2. Các kết quả còn lại được tổng hợp từ chương trình của nhóm.
+Qua B3, tôi thấy lựa chọn số lần chạy phụ thuộc vào mục tiêu. Giới hạn 2 lần cho tổng chi phí hệ thống thấp nhất, 6.901.220 đ, còn giới hạn 1 lần cho chi phí trợ lý mỗi việc thành công thấp nhất, 4.111 đ (`simulated`). Tôi đối chiếu độc lập chi phí gọi tool ở A2 và kiểm tra trực tiếp ba chỉ số CP5 từ src/logix_requests.csv: đóng trong 24 giờ và không mở lại trong 7 ngày (82,83%), sửa hoặc bỏ gợi ý (27,12%) và mở lại trong 7 ngày (4,25%). Tôi đã gửi tỉ lệ mở lại cho nhóm để dùng làm mốc an toàn ở CP4 và gửi cả ba kết quả để điền CP5.
