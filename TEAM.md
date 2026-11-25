@@ -7,7 +7,7 @@
 - Repo nhóm: `K5-L3B-DAY13-ABCD-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
 - URL repo: [K5-L3B-DAY13-ABCD-LaunchEconomics](https://github.com/NguyenQuangDunghe161764/K5-L3B-DAY13-ABCD-LaunchEconomics)
 - Nhánh nộp: `main`
-- Commit chốt: cập nhật khi nhóm chốt bản nộp.
+- Commit chốt bản nộp: [`9ba9d08`](https://github.com/NguyenQuangDunghe161764/K5-L3B-DAY13-ABCD-LaunchEconomics/commit/9ba9d084a93ea18dc90960c774857ace000bf5ef).
 
 ## Thành viên
 
