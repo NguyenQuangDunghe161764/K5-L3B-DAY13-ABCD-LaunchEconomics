@@ -20,7 +20,7 @@ Nhóm ABCD, lớp L3B. Thành viên và phần việc đã ghi nhận trong [TEA
 
 Chi phí toàn mẫu là **4.472 đ/việc thành công** (simulated). Kịch bản xem lại 100% với 15,3 phút làm lại mỗi ca đạt **12.415 đ/việc** (simulated), vượt mức thủ công **12.000 đ**. Hai người gắn nhãn đồng thuận **20/20 ca**. Trong đợt chạy thử giả lập, **82,83%** yêu cầu đóng trong 24 giờ và không mở lại trong 7 ngày, **27,12%** ca được xem lại có quyết định sửa hoặc bỏ gợi ý, và **4,25%** yêu cầu mở lại trong 7 ngày.
 
-Đề xuất **Go có điều kiện** cho pilot `noi_dia` và `hang_nang`. Kết quả duyệt chéo đang chờ hội đồng.
+Đề xuất **Go có điều kiện** cho pilot `noi_dia` và `hang_nang`. Coffee chấm **30/30**, với 10/10 cho từng tiêu chí. Hội đồng góp ý so chi phí trên cùng mẫu số, nêu rõ cách hạn chế dùng chéo trợ lý và cân nhắc thời gian xem lại thực tế khi tăng rollout. Quyết định chính thức đang chờ Coffee xác nhận. [Phiếu Coffee chấm ABCD](phieu_cham.md) · [Phiếu ABCD chấm Coffee](phieu_cham_coffee.md)
 
 ## 5. Khó khăn và cách xử lý
 
